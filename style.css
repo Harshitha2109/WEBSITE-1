@@ -1,0 +1,138 @@
+2*{
+    margin:0;
+    padding:0;
+    font-family:sans
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow:hidden;
+    background:linear-gradient(to right,#9a40f4,#b267de);
+
+}
+nav{
+   width: 100%;
+   position:sticky;
+   margin:20px auto;
+   z-index: 1;
+   display:flex;
+   align-items: center;
+}
+.logo{
+    flex-basis: 20%;
+
+}
+.logo img{
+    width: 175px;
+}
+.nav-links{
+    flex:1;
+    text-align:right;
+
+}
+.nav-links ul li{
+    list-style : none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.nav-links ul li a{
+    color:#ffffff;
+    text-decoration: none;
+}
+.information{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 40%;
+    left:-10%;
+    transform:translateY(-50%)
+}
+#circle{
+    width: 1000px;
+    height: 900px;
+    position: absolute;
+    top:0;
+    left:0;
+    border-radius:50%;
+    transform: rotate(0deg);
+    transistion:1sec;
+
+    
+.feature img{
+    width: 70px;
+}
+.feature{
+    position: absolute;
+    DISPLAY:FLEX;
+    COLOR:#FFFFFF;
+}
+.FEATURE DIV{
+    margin-left:60px;
+}
+.feature div p{
+ margin-top: 8px;
+}
+.one{
+    top:540px;
+    right:80px;
+
+}
+.two{
+    top:110px;
+    left:480px;
+    transform: rotate(-90deg);
+}
+.three{
+    bottom:550px;
+    left:60px;
+    transform: rotate(-180deg);
+}
+.four{
+  bottom: 180px;
+  right:500px;
+  transform: rotate(-270deg);
+}
+}
+.mobile{
+  width: 200px;
+  position: absolute;
+  top: 60%;
+  left:30%;
+  transform: translateY(-50%);
+ z-index: 1;
+}
+.controls{
+    position: absolute;
+    left:140%;
+    right:0%;
+    top:60%;
+    transform: translateY(-50%);
+}
+.controls  h3{
+    margin:15px 0;
+    color:#fff;
+}
+#upbtn{
+    width:15px;
+    cursor:pointer;
+    
+
+}
+
+
+#downbtn{
+    width:15px;
+    cursor:pointer;
+    transform:rotate(180deg);
+
+}
+.overlay{
+    width:0 ;
+    height: 0;
+    border-top: 600px solid #ffffff;
+    border-right:500px solid #d886d1 ;
+    border-bottom:500px solid #ffffff;
+    border-left:500px solid #ffffff;
+
+}
